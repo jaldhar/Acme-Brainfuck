@@ -1,0 +1,9 @@
+libacme-brainfuck-perl (0.9.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Jaldhar H. Vyas <jaldhar@debian.org>  Fri, 30 Aug 2002 00:41:47 -0400
+
+Local variables:
+mode: debian-changelog
+End:

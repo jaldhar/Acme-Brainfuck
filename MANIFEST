@@ -1,0 +1,15 @@
+Brainfuck.pm
+Changes
+Makefile.PL
+MANIFEST
+README
+debian/control
+debian/changelog
+debian/rules
+debian/copyright
+debian/libacme-brainfuck-perl.examples
+examples/countdown.pl
+examples/helloworld.pl
+examples/jabh.pl
+examples/reverse.pl
+test.pl
