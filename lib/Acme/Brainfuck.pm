@@ -9,7 +9,7 @@ use strict;
 use warnings;
 
 #remember to change this in the POD too.
-our $VERSION = '1.0.1';
+our $VERSION = '1.1.0';
  
 # The memory pointer and memory cells of our Turing machine. 
 our $p = 0;
@@ -241,7 +241,7 @@ value of the current memory cell.
 
 =head1 VERSION
 
- 1.0.1 Sep 22, 2002
+ 1.1.0 Apr 06, 2004
 
 =head1 AUTHOR
 
@@ -262,7 +262,7 @@ L<http://www.cydathria.com/bf/>.  Some of the example code comes from there.
 
 =head1 COPYRIGHT AND LICENSE
 
- Copyright (c) 2002, Consolidated Braincells Inc.
+ Copyright (c) 2004, Consolidated Braincells Inc.
  Licensed with no warranties under the Crowley Public License:
  
  "Do what thou wilt shall be the whole of the license."

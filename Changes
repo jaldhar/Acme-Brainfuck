@@ -1,6 +1,10 @@
 $Id: Changes,v 1.4 2002/09/23 02:26:31 jaldhar Exp $
 Revision history for Perl extension Acme::Brainfuck.
 
+1.1.0 Tue Apr 06 12:37:00 2004
+	Switched to Module::Build.
+	Really uploaded to Debian for the first time.
+	
 1.0.1 Tue Sep 22 22:15:00 2002
 	Uploaded to Debian for the first time.
 	
