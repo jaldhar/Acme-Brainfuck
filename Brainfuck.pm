@@ -1,7 +1,7 @@
 #
 # See POD documentation below for description, copyright and licensing info.
 #
-# $Id: Brainfuck.pm,v 1.1 2002/08/30 20:31:47 jaldhar Exp $
+# $Id: Brainfuck.pm,v 1.2 2002/08/31 03:18:26 jaldhar Exp $
 #
 package Acme::Brainfuck;
 use Filter::Simple;
@@ -52,10 +52,10 @@ FILTER_ONLY code => sub
 
 	$code =~ s/^/do { /g;
 	$code =~ s/$/P; }; /g;
-	$code =~ s/\+/P++; /g;
-	$code =~ s/\-/P--; /g;
-	$code =~ s/</\$Acme::Brainfuck::p--; /g; 
-	$code =~ s/>/\$Acme::Brainfuck::p++; /g;
+	$code =~ s/(\++)/"P += ".length($1).";" /eg;
+	$code =~ s/(\-+)/"P -= ".length($1).";" /eg;
+	$code =~ s/(<+)/"\$Acme::Brainfuck::p -= ".length($1).";" /eg; 
+	$code =~ s/(>+)/"\$Acme::Brainfuck::p += ".length($1).";" /eg;
 	$code =~ s/\./print chr P; /g;
 	$code =~ s/,/P = ord getc;/g;
 	$code =~ s/\[/while(P){/g;
