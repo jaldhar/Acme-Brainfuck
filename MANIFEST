@@ -3,7 +3,7 @@ Changes
 debian/changelog
 debian/control
 debian/copyright
-debian/libacme-brainfuck-perl.examples
+debian/libacme-brainfck-perl.examples
 debian/rules
 examples/countdown.pl
 examples/helloworld.pl
