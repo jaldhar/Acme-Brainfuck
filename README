@@ -1,4 +1,4 @@
-Acme::Brainfuck version 0.9.0
+Acme::Brainfuck version 0.9.1
 ==============================
 
 Brainfuck is about the tiniest Turing-complete programming language you
@@ -26,4 +26,4 @@ Copyright (c) 2002, Consolidated Braincells Inc.
 Licensed with no warranties under the Crowley Public License:
 "Do what thou wilt shall be the whole of the license."
 
-$Id: README,v 1.1 2002/08/30 20:31:44 jaldhar Exp $
+$Id: README,v 1.2 2002/08/31 03:29:03 jaldhar Exp $
