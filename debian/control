@@ -1,7 +1,7 @@
 Source: libacme-brainfck-perl
 Section: interpreters
 Priority: optional
-Build-Depends: debhelper (>= 3.0.5), perl (>= 5.6.0-17)
+Build-Depends: debhelper (>= 3.0.5), perl (>= 5.6.0-17), libmodule-build-perl
 Maintainer: Jaldhar H. Vyas <jaldhar@debian.org>
 Standards-Version: 3.6.1
 

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Acme-Brainfuck
-version: 1.1.0
+version: 1.1.1
 author:
   - Jaldhar H. Vyas <jaldhar@braincells.com>
 abstract: Embed Brainfuck in your perl code
@@ -8,5 +8,5 @@ license: unrestricted
 provides:
   Acme::Brainfuck:
     file: lib/Acme/Brainfuck.pm
-    version: 1.1.0
+    version: 1.1.1
 generated_by: Module::Build version 0.24

@@ -9,7 +9,7 @@ use strict;
 use warnings;
 
 #remember to change this in the POD too.
-our $VERSION = '1.1.0';
+our $VERSION = '1.1.1';
  
 # The memory pointer and memory cells of our Turing machine. 
 our $p = 0;
@@ -241,7 +241,7 @@ value of the current memory cell.
 
 =head1 VERSION
 
- 1.1.0 Apr 06, 2004
+ 1.1.1 Apr 06, 2004
 
 =head1 AUTHOR
 
