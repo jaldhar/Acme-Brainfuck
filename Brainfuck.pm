@@ -1,7 +1,7 @@
 #
 # See POD documentation below for description, copyright and licensing info.
 #
-# $Id: Brainfuck.pm,v 1.4 2002/09/03 18:43:47 jaldhar Exp $
+# $Id: Brainfuck.pm,v 1.5 2002/09/23 02:26:31 jaldhar Exp $
 #
 package Acme::Brainfuck;
 use Filter::Simple;
@@ -9,7 +9,7 @@ use strict;
 use warnings;
 
 #remember to change this in the POD too.
-our $VERSION = '1.0.0';
+our $VERSION = '1.0.1';
  
 # The memory pointer and memory cells of our Turing machine. 
 our $p = 0;
@@ -241,7 +241,7 @@ value of the current memory cell.
 
 =head1 VERSION
 
- 1.0.0 Sep 03, 2002
+ 1.0.1 Sep 22, 2002
 
 =head1 AUTHOR
 

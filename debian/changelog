@@ -1,3 +1,9 @@
+libacme-brainfuck-perl (1.0.1-1) unstable; urgency=low
+
+  * First upload to debian.  (Closes: #160014) 
+
+ -- Jaldhar H. Vyas <jaldhar@debian.org>  Sun, 22 Sep 2002 22:22:12 -0400
+
 libacme-brainfuck-perl (1.0.0-1) unstable; urgency=low
 
   * New upstream version.
